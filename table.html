@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TableTag</title>
+    <style>
+        body{
+            margin-bottom: 500px;
+        }
+        #blue, #blue th,#blue td{
+            border: 2px solid orange;
+            border-collapse: collapse;
+            padding: 10px;
+            color: black;
+        }
+        #blue{
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 0 10px black;
+        }
+        #blue thead{
+            background-color: black;
+        }
+        #blue tbody{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Table</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>SI No.</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>shahruk</td>
+                <td>IBM</td>
+                <td>Bangalore</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rakesh</td>
+                <td>Google</td>
+                <td>BTM</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Gaurav</td>
+                <td>tera logic</td>
+                <td>Btm</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Table With Call Span </h2>
+    <table border="10">
+         <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>Name</th>
+                <th colspan="2">Company & Address</th>
+            </tr>
+         </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>john</td>
+                <td>Infosys</td>
+                <td>Bangalore</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Shahruk</td>
+                <td>IBM</td>
+                <td>Hyedrabad</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ajay</td>
+                <td>IBM</td>
+                <td>Hyedrabad</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>This Table is Like Row Span</h1>
+    <table border="4">
+        <thade>
+            <tr>
+                <th>S.NO</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td rowspan="3">1</td>
+                <td>Shahruk</td>
+                <td>TCS</td>
+                <td>HYD</td>
+            </tr>
+            <tr>
+                <td>Rakesh</td>
+                <td>Infosys</td>
+                <td>Blr</td>
+            </tr>
+            <tr>
+                <td>Rakesh</td>
+                <td>Infosys</td>
+                <td>Blr</td>
+            </tr>
+        </thade>
+
+    </table>
+    <h1>Custom Table</h1>
+    <table id="blue">
+        <thade>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Address</th>
+            </tr>
+        </thade>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Shahruk</td>
+                <td>Google</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Shahruk</td>
+                <td>Google</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Shahruk</td>
+                <td>Google</td>
+                <td>India</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+</html>

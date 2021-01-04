@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LoginPage</title>
+</head>
+<body>
+<!-- Default form login -->
+<form class="text-center border border-light p-5" >
+
+    <p class="h4 mb-4">Sign in</p>
+
+    <!-- Email -->
+    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+    <!-- Password -->
+    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+
+    <div class="d-flex justify-content-around">
+        <div>
+            <!-- Remember me -->
+            <mdb-checkbox [default]="true">Remember me</mdb-checkbox>
+        </div>
+        <div>
+            <!-- Forgot password -->
+            <a href="">Forgot password?</a>
+        </div>
+    </div>
+
+    <!-- Sign in button -->
+    <button mdbBtn color="info" block="true" class="my-4" type="submit">Sign in</button>
+
+    <!-- Register -->
+    <p>Not a member?
+        <a href="">Register</a>
+    </p>
+
+    <!-- Social login -->
+    <p>or sign in with:</p>
+
+    <a type="button" class="light-blue-text mx-2">
+        <mdb-icon fab icon="facebook"></mdb-icon>
+    </a>
+    <a type="button" class="light-blue-text mx-2">
+        <mdb-icon fab icon="twitter"></mdb-icon>
+    </a>
+    <a type="button" class="light-blue-text mx-2">
+        <mdb-icon fab icon="linkedin"></mdb-icon>
+    </a>
+    <a type="button" class="light-blue-text mx-2">
+        <mdb-icon fab icon="github"></mdb-icon>
+    </a>
+
+</form>
+<!-- Default form login -->
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
+
+</body>
+</html>
